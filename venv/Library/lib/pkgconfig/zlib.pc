@@ -1,0 +1,13 @@
+prefix=D:/modifiedrsumeparser/venv/Library
+exec_prefix=D:/modifiedrsumeparser/venv/Library
+libdir=D:/modifiedrsumeparser/venv/Library/lib
+sharedlibdir=D:/modifiedrsumeparser/venv/Library/lib
+includedir=D:/modifiedrsumeparser/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
